@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { translations } from './data/translations'
+import Sobre from './components/Sobre'
 
 function App() {
   const [lang, setLang] = useState('pt')
@@ -15,9 +16,7 @@ function App() {
     <>
       <Header t={t.header} lang={lang} onToggleLang={alternarIdioma} />
       <main>
-        <section id="sobre">
-          <h2>{t.header.menu.sobre}</h2>
-        </section>
+        <Sobre t={t.sobre} />
         <section id="projetos">
           <h2>{t.header.menu.projetos}</h2>
         </section>
