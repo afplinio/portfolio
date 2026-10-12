@@ -1,14 +1,19 @@
 import './Header.css'
 
-function Header() {
+function Header({ t, lang, onToggleLang }) {
   return (
     <header className="header">
       <span className="header__logo">Plínio Ângelo Ferreira</span>
       <nav className="header__nav">
-        <a href="#sobre">Sobre Mim</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#experiencias">Experiências</a>
-        <a href="#contato">Contato</a>
+        <a href="#sobre">{t.menu.sobre}</a>
+        <a href="#projetos">{t.menu.projetos}</a>
+        <a href="#experiencias">{t.menu.experiencias}</a>
+        <a href="#contato">{t.menu.contato}</a>
+        <button className="header__lang" onClick={onToggleLang}>
+          <span className={lang === 'pt' ? 'ativo' : ''}>PT</span>
+          {' | '}
+          <span className={lang === 'en' ? 'ativo' : ''}>EN</span>
+        </button>
       </nav>
     </header>
   )

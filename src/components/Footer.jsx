@@ -1,11 +1,11 @@
 import './Footer.css'
 
-function Footer() {
+function Footer({ t }) {
   const ano = new Date().getFullYear()
 
   return (
     <footer className="footer">
-      <p>© {ano} Plínio Ângelo Ferreira. Todos os direitos reservados.</p>
+      <p>© {ano} Plínio Ângelo Ferreira. {t.direitos}</p>
     </footer>
   )
 }
