@@ -22,3 +22,16 @@
 .header__nav a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header__nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

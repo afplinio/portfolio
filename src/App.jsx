@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <h2>Contato</h2>
         </section>
       </main>
+      <Footer />
     </>
   )
 }
