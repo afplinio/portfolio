@@ -6,17 +6,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #111;
-  color: #fff;
+  background: var(--header-bg);
+  color: var(--header-text);
+}
+
+.header__logo {
+  font-weight: bold;
 }
 
 .header__nav {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
 }
 
 .header__nav a {
-  color: #fff;
+  color: var(--header-text);
   text-decoration: none;
 }
 
@@ -24,13 +29,20 @@
   text-decoration: underline;
 }
 
-.header__lang {
+.header__lang,
+.header__tema {
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid var(--header-text);
   border-radius: 4px;
-  color: #fff;
+  color: var(--header-text);
   padding: 0.25rem 0.6rem;
+  font: inherit;
   cursor: pointer;
+}
+
+.header__tema {
+  display: inline-flex;
+  align-items: center;
 }
 
 .header__lang .ativo {

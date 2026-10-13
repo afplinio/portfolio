@@ -53,6 +53,7 @@ export const translations = {
         experiencias: 'Experiências',
         contato: 'Contato',
       },
+      alternarTema: 'Alternar tema',
     },
     footer: {
       direitos: 'Todos os direitos reservados.',
@@ -112,6 +113,7 @@ export const translations = {
         experiencias: 'Experience',
         contato: 'Contact',
       },
+      alternarTema: 'Toggle theme',
     },
     footer: {
       direitos: 'All rights reserved.',

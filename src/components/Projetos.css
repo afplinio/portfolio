@@ -12,7 +12,7 @@
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #999;
+  background: var(--text-muted);
 }
 
 .projetos__item {
@@ -28,9 +28,9 @@
   box-sizing: border-box;
   width: 14px;
   height: 14px;
-  border: 3px solid #111;
+  border: 3px solid var(--accent);
   border-radius: 50%;
-  background: #fff;
+  background: var(--bg);
 }
 
 .projetos__ano {
@@ -38,12 +38,17 @@
   margin-bottom: 0.75rem;
   font-weight: bold;
   font-size: 1.1rem;
+  color: var(--accent);
 }
 
 .projetos__card {
   display: grid;
   grid-template-columns: 220px 1fr;
   gap: 1.25rem;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
 }
 
 .projetos__imagem,
@@ -61,8 +66,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #e5e5e5;
-  color: #666;
+  border: 1px dashed var(--border);
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 
@@ -76,7 +81,7 @@
 }
 
 .projetos__tags li {
-  border: 1px solid #999;
+  border: 1px solid var(--border);
   border-radius: 4px;
   padding: 0.2rem 0.6rem;
   font-size: 0.85rem;
@@ -87,15 +92,15 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.4rem 0.8rem;
-  border: 1px solid #111;
+  border: 1px solid var(--accent);
   border-radius: 6px;
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
 }
 
 .projetos__github:hover {
-  background: #111;
-  color: #fff;
+  background: var(--accent);
+  color: var(--on-accent);
 }
 
 @media (max-width: 600px) {

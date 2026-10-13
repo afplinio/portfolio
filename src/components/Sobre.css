@@ -10,10 +10,12 @@
   height: 220px;
   object-fit: cover;
   border-radius: 12px;
+  border: 3px solid var(--accent);
 }
 
 .sobre__cargo {
   font-weight: bold;
+  color: var(--accent);
 }
 
 .sobre__cards {
@@ -24,7 +26,8 @@
 }
 
 .sobre__card {
-  border: 1px solid #ddd;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 8px;
   padding: 1rem;
 }
@@ -38,7 +41,8 @@
 }
 
 .sobre__tags li {
-  border: 1px solid #999;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 4px;
   padding: 0.25rem 0.75rem;
   font-size: 0.9rem;

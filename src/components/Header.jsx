@@ -1,6 +1,7 @@
+import { FaSun, FaMoon } from 'react-icons/fa'
 import './Header.css'
 
-function Header({ t, lang, onToggleLang }) {
+function Header({ t, lang, onToggleLang, tema, onToggleTema }) {
   return (
     <header className="header">
       <span className="header__logo">Plínio Ângelo Ferreira</span>
@@ -13,6 +14,14 @@ function Header({ t, lang, onToggleLang }) {
           <span className={lang === 'pt' ? 'ativo' : ''}>PT</span>
           {' | '}
           <span className={lang === 'en' ? 'ativo' : ''}>EN</span>
+        </button>
+        <button
+          className="header__tema"
+          onClick={onToggleTema}
+          aria-label={t.alternarTema}
+          title={t.alternarTema}
+        >
+          {tema === 'claro' ? <FaMoon /> : <FaSun />}
         </button>
       </nav>
     </header>

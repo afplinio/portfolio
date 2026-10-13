@@ -9,12 +9,14 @@
   display: flex;
   gap: 1rem;
   padding: 1.25rem;
-  border: 1px solid #ddd;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 8px;
 }
 
 .experiencias__icone {
   flex-shrink: 0;
+  color: var(--accent);
 }
 
 .experiencias__topo {
@@ -31,7 +33,7 @@
 
 .experiencias__periodo {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-muted);
   white-space: nowrap;
 }
 
