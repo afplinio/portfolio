@@ -22,6 +22,10 @@ export const translations = {
       verGithub: 'Ver no GitHub',
       semImagem: 'Imagem ou GIF',
     },
+    experiencias: {
+      titulo: 'Experiências',
+      subtitulo: 'Minha trajetória até aqui.',
+    },
     contato: {
       titulo: 'Contato',
       subtitulo: 'Vamos conversar!',
@@ -76,6 +80,10 @@ export const translations = {
       subtitulo: 'A timeline of some of the projects I have developed.',
       verGithub: 'View on GitHub',
       semImagem: 'Image or GIF',
+    },
+    experiencias: {
+      titulo: 'Experience',
+      subtitulo: 'My journey so far.',
     },
     contato: {
       titulo: 'Contact',

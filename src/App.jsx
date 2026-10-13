@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import { translations } from './data/translations'
 import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
+import Experiencias from './components/Experiencias'
 import Contato from './components/Contato'
 
 function App() {
@@ -20,9 +21,7 @@ function App() {
       <main>
         <Sobre t={t.sobre} />
         <Projetos t={t.projetos} lang={lang} />
-        <section id="experiencias">
-          <h2>{t.header.menu.experiencias}</h2>
-        </section>
+        <Experiencias t={t.experiencias} lang={lang} />
         <Contato t={t.contato} />
       </main>
       <Footer t={t.footer} />
