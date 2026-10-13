@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { translations } from './data/translations'
 import Sobre from './components/Sobre'
+import Contato from './components/Contato'
 
 function App() {
   const [lang, setLang] = useState('pt')
@@ -23,9 +24,7 @@ function App() {
         <section id="experiencias">
           <h2>{t.header.menu.experiencias}</h2>
         </section>
-        <section id="contato">
-          <h2>{t.header.menu.contato}</h2>
-        </section>
+        <Contato t={t.contato} />
       </main>
       <Footer t={t.footer} />
     </>

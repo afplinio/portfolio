@@ -1,0 +1,70 @@
+.contato__links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.contato__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.contato__link:hover {
+  border-color: #111;
+}
+
+.contato__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 600px;
+}
+
+.contato__form input,
+.contato__form textarea {
+  padding: 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.contato__form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contato__form button {
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background: #111;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.contato__form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contato__erro,
+.contato__falha {
+  color: #c0392b;
+  font-size: 0.9rem;
+}
+
+.contato__sucesso {
+  color: #1e8449;
+}
