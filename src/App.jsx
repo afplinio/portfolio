@@ -14,8 +14,10 @@ function App() {
   )
   const t = translations[lang]
 
-  function alternarIdioma() {
-    setLang(lang === 'pt' ? 'en' : 'pt')
+    function alternarIdioma() {
+    const novoIdioma = lang === 'pt' ? 'en' : 'pt'
+    setLang(novoIdioma)
+    document.documentElement.lang = novoIdioma === 'pt' ? 'pt-BR' : 'en'
   }
 
   function alternarTema() {
