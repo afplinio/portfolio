@@ -15,7 +15,7 @@ Projeto desenvolvido no **Laboratório 01** da disciplina de Desenvolvimento e I
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 - ✅ **Sprint 1:** planejamento e prototipação (README, wireframes, navegação e layout principal)
-- ⏳ **Sprint 2:** funcionalidades principais (Sobre Mim PT/EN, timeline de projetos, experiências, contato)
+- ✅ **Sprint 2:** funcionalidades principais (Sobre Mim PT/EN, timeline de projetos, experiências, contato)
 - ⏳ **Sprint 3:** deploy na Vercel e finalização
 
 ---
@@ -40,7 +40,7 @@ Projeto desenvolvido no **Laboratório 01** da disciplina de Desenvolvimento e I
 
 ## 🔗 Links Úteis
 
-- 🌐 **Site publicado:** _será adicionado após o deploy na Vercel (Sprint 3)_
+- 🌐 **Site publicado:** https://plinioferreira.vercel.app/
 - 🎨 **Protótipos no Figma:** https://www.figma.com/design/tmhxeLKnrAbgAoPKgntWlk/DIAW-LAB-01-Wireframes-portf%C3%B3lio?node-id=0-1&t=ACAXw8kpFpUc8cZd-1
 - 💻 **Repositório:** https://github.com/afplinio/portfolio
 
@@ -144,7 +144,9 @@ O site ficará disponível em **http://localhost:5173**.
 
 ## 🚀 Deploy
 
-O deploy será feito na **Vercel**, conectada ao repositório do GitHub.
+O site está publicado na **Vercel**, conectada ao repositório do GitHub: https://plinioferreira.vercel.app/
+
+Cada `git push` na branch `main` gera um novo deploy automaticamente.
 
 1. **Gerar o build de produção:**
 
