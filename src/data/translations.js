@@ -16,6 +16,12 @@ export const translations = {
       objetivos: 'Me tornar um engenheiro de software completo, contribuindo para projetos inovadores e impactando pessoas de forma positiva através da tecnologia.',
       tecnologiasTitulo: 'Tecnologias',
     },
+    projetos: {
+      titulo: 'Projetos',
+      subtitulo: 'Uma linha do tempo com alguns dos projetos que desenvolvi.',
+      verGithub: 'Ver no GitHub',
+      semImagem: 'Imagem ou GIF',
+    },
     contato: {
       titulo: 'Contato',
       subtitulo: 'Vamos conversar!',
@@ -64,6 +70,12 @@ export const translations = {
       objetivosTitulo: 'Goals',
       objetivos: 'To become a well-rounded software engineer, contributing to innovative projects and positively impacting people through technology.',
       tecnologiasTitulo: 'Technologies',
+    },
+    projetos: {
+      titulo: 'Projects',
+      subtitulo: 'A timeline of some of the projects I have developed.',
+      verGithub: 'View on GitHub',
+      semImagem: 'Image or GIF',
     },
     contato: {
       titulo: 'Contact',
